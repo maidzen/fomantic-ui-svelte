@@ -1,6 +1,10 @@
+## About
+
+This is a Playground Repo to learn svelte by porting my favorite UI Fomantic-UI to svelteKit
+
 ## Developing
 
-development server:
+development Preview server:
 
 ```bash
 npm run dev
