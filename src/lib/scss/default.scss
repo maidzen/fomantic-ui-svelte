@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400%3B0,700%3B1,400%3B1,700&subset=latin&display=swap);
+@import 'variables';
+
+//apply styles
+:global(html, body) {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: $background;
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: 1.5em;
+	color: $font-color;
+}

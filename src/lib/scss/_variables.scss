@@ -1,0 +1,57 @@
+//default
+$background: #fff;
+$emSize: 14px;
+
+$padding: 1em;
+
+//font settings
+$font-color: rgba(0, 0, 0, 0.87);
+$font-color-light: rgba(0, 0, 0, 0.67);
+$font-color-inverted: rgba(255, 255, 255, 0.87);
+$font-size: 14px;
+$font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+//colors
+$primary-color: #2185d0;
+$primary-hover: #1678c2;
+
+$secondary: #e0e1e2;
+$secondary-hover: #cacbcd;
+
+$red: #db2828;
+$orange: #fe9a76;
+$yellow: #ffd700;
+$olive: #32cd32;
+$green: #016936;
+$teal: #008080;
+$blue: #0e6eb8;
+$violet: #ee82ee;
+$purple: #b413ec;
+$pink: #ff1493;
+$brown: #a52a2a;
+$grey: #a0a0a0;
+$black: #000000;
+
+$red-hover: saturate(darken($red, 10), 10);
+$orange-hover: saturate(darken($orange, 10), 10);
+$yellow-hover: saturate(darken($yellow, 10), 10);
+$olive-hover: saturate(darken($olive, 10), 10);
+$green-hover: saturate(darken($green, 10), 10);
+$teal-hover: saturate(darken($teal, 10), 10);
+$blue-hover: saturate(darken($blue, 10), 10);
+$violet-hover: saturate(darken($violet, 10), 10);
+$purple-hover: saturate(darken($purple, 10), 10);
+$pink-hover: saturate(darken($pink, 10), 10);
+$brown-hover: saturate(darken($brown, 10), 10);
+
+$grey-hover: lighten($grey, 10);
+$black-hover: lighten($black, 10);
+
+//border
+$border: 1px solid $secondary;
+$border-radius: 4px;
+
+//shadow
+
+$box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgb(34 36 38 / 15%) inset;
+$box-shadow-out: 0 5px 15px rgb(34 36 38 / 15%);
